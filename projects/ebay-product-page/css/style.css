@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#layout {
+    max-width: 1000px;
+    margin: 48px auto;
+    display: flex;
+
+}
+
+#thumbnail {
+    flex: 1;
+    max-width: 200px;
+    padding: 50px;
+}
+
+#featured-image {
+    flex: 2;
+    padding: 25px;
+}
+
+#product-info {
+    flex: 3;
+    max-width: 350px;
+}
+
+#new {
+    font-weight: bold;
+}
+
+.buy {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    background-color: rgb(37, 79, 218);
+    padding: 12px;
+    border-radius: 15px;
+    font-size: 11px;
+    font-weight: bold;
+    margin-left: 100px;
+}
+
+.button {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    background-color: rgb(96, 235, 235);
+    padding: 12px;
+    border-radius: 15px;
+    font-size: 11px;
+    font-weight: bold;
+    margin-left: 100px;
+}
